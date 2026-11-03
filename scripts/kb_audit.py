@@ -25,6 +25,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import build_map  # noqa: E402  (shares constants and checks)
 from kb_paths import CONTEXT_LOG, NOW, PROJECTS, ROOT  # noqa: E402
 
+# Windows consoles default to cp1252; NOW.md may contain emoji.
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
 EVICT_DAYS = 21
 FIXED_LOAD_WARN = 8000  # bytes: user CLAUDE.md + AGENTS + CLAUDE + CLAUDE.local
 
