@@ -31,7 +31,7 @@ Paths are derivable — never scan the tree. Project = `{{PROJECTS}}/<Name>/Gene
 
 ## 4. Context budget — enforced by `build_map.py`
 
-- `NOW.md`: ≤4 KB · ≤3 active projects · ≤3 lines each. A continuous commitment is one line in the Radar, not a project.
+- `NOW.md`: ≤4 KB · ≤3 lines per project. A continuous commitment is one line in the Radar, not a project.
 - `Genesis.md`: ≤6 KB (hard fail at 8 KB). It holds kickoff, current state, open decisions and pointers. History goes to `Log.md`, closed decisions to `Decisions.md`, in the same folder.
 - Frontmatter `next`: ≤140 characters.
 - No movement in 21 days → `{{PROJECTS}}/Backburner.md`, with enough state to resume.
