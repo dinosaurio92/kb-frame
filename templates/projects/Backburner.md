@@ -1,6 +1,6 @@
 # Backburner — parked projects and ideas
 
-Holding pen for unstarted projects, ideas and parked work. To revive one: Lean Kickoff (Why, Goal, Done, Out) → Genesis in `{{PROJECTS}}/` → promote to `NOW.md` (caps at 3 active, so promoting usually means demoting something else).
+Holding pen for unstarted projects, ideas and parked work. To revive one: Lean Kickoff (Why, Goal, Done, Out) → Genesis in `{{PROJECTS}}/` → promote to `NOW.md` (it has a 4 KB budget, so promoting may mean demoting something else).
 
 > **Parked ≠ dead.** Each entry keeps enough state to resume without re-deriving anything. Genesis files stay where they are. Nothing is deleted.
 

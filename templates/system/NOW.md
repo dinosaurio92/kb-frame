@@ -1,12 +1,12 @@
 # NOW — Live State
 
-> Live state, updated at every close. Budget (≤4 KB, ≤3 projects, ≤3 lines each): `AGENTS.md §4`.
+> Live state, updated at every close. Budget (≤4 KB, ≤3 lines per project): `AGENTS.md §4`.
 
 **Last updated:** {{TODAY}} — kb-frame installed.
 
 ---
 
-## Active Projects (3 max — things that need decisions)
+## Active Projects (things that need decisions)
 
 ### Project name (`{{PROJECTS}}/<Name>/Genesis.md`) — T2
 - **Next:** the next concrete action.

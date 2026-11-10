@@ -7,7 +7,7 @@ description: Close ritual of this repo. Run at the end of any session that chang
 
 Run the steps in order. Stop and tell {{OWNER}} if a step fails.
 
-1. **State.** Update `{{SYSTEM}}/NOW.md` (next action, blocker, deadline) within its budget: ≤4 KB, ≤3 active projects, ≤3 lines each. Narrative state belongs in the project's `Genesis.md`, not here.
+1. **State.** Update `{{SYSTEM}}/NOW.md` (next action, blocker, deadline) within its budget: ≤4 KB, ≤3 lines per project. Narrative state belongs in the project's `Genesis.md`, not here.
 2. **Frontmatter.** Set `updated` and `next` (≤140 characters) in every Genesis or area file whose state moved.
 3. **Genesis budget.** If a `Genesis.md` is over 6 KB, move finished sprints and session notes to `Log.md` and closed decisions to `Decisions.md` in the same folder. Leave a pointer under `## Project files`.
 4. **Stale deadlines.** Any date now in the past is closed or the project is re-scoped. Never leave an expired deadline shown as live.
